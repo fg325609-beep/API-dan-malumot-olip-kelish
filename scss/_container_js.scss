@@ -2,7 +2,17 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    background: rgb(35, 35, 41);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
 }
 body{
+    background: rgb(35, 35, 41);
+    
+}
+.card{
+    width: 100%;
+    padding: 10px ;
+    background: white;
 }

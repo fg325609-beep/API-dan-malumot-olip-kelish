@@ -2,6 +2,22 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }
 
-/* @imp;# sourceMappingURL=style.css.map */ 
+body {
+  background: rgb(35, 35, 41);
+}
+
+.card {
+  width: 100%;
+  padding: 10px;
+  background: white;
+}
+
+.card {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
