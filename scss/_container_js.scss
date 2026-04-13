@@ -10,9 +10,16 @@
 body{
     background: rgb(35, 35, 41);
     
-}
-.card{
-    width: 100%;
-    padding: 10px ;
-    background: white;
+    .card{
+        width: 100%;
+        padding: 10px ;
+        background: white;
+        text-align: center;
+        .img{
+          width: 100%;
+        }
+        p{
+            border-top: 1px solid black;
+        }
+    }
 }

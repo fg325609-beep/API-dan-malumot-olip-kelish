@@ -11,13 +11,15 @@
 body {
   background: rgb(35, 35, 41);
 }
-
-.card {
+body .card {
   width: 100%;
   padding: 10px;
   background: white;
+  text-align: center;
 }
-
-.card {
+body .card .img {
   width: 100%;
+}
+body .card p {
+  border-top: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
