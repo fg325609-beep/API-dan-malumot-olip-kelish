@@ -15,11 +15,17 @@ body{
         padding: 10px ;
         background: white;
         text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        border-radius:30px ;
         .img{
           width: 100%;
         }
         p{
             border-top: 1px solid black;
+            padding-top: 20px;
         }
     }
 }

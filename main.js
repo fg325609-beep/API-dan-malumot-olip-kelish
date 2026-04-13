@@ -9,7 +9,7 @@ fetch('https://jsonplaceholder.typicode.com/comments')
       function render(users){
         const cards = users.map(el =>`
              <div class="card">
-                  <img src="https://picsum.photos/id/${el.id + 10}" alt="food">
+                  <img src="https://picsum.photos/id/${el.id + 10}/1200/200" alt="food">
                    <h1>${el.name}</h1>
                     <p>@${el.username}</p>
                    <a href="mailto:${el.email}">${el.email}</a>
