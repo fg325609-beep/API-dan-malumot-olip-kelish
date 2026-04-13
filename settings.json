@@ -1,3 +1,21 @@
 {
-    
-}
+
+    {
+    // Live Sass Compiler sozlamalari
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",        // CSS o'qishga oson holatda chiqadi
+            "extensionName": ".css",
+            "savePath": "/css"           // Kompilyatsiya bo'lgan faylni /css papkasiga tashlaydi
+        },
+        {
+            "format": "compressed",      // Proyekt tayyor bo'lganda siqilgan (minified) holat
+            "extensionName": ".min.css",
+            "savePath": "/css"
+        }
+    ],
+
+    // SCSS fayllari ichida tavsiyalar va avtomatik tugatish
+}}
+
+
