@@ -1,6 +1,4 @@
 {
-
-    {
     // Live Sass Compiler sozlamalari
     "liveSassCompile.settings.formats": [
         {
@@ -16,6 +14,29 @@
     ],
 
     // SCSS fayllari ichida tavsiyalar va avtomatik tugatish
-}}
+    "scss.validate": true,
+    "editor.suggestSelection": "first",
+    
+    // Fayllarni saqlaganda avtomatik formatlash (tartibga solish)
+    "editor.formatOnSave": true,
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
 
+    // Emmet-ni SCSS ichida ham ishlashi uchun
+    "emmet.includeLanguages": {
+        "scss": "css"
+    },
 
+    // Arxitekturadagi _ (pastki chiziq) bilan boshlangan fayllarni alohida CSS qilmaslik
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    
+    // Autoprefixer: Brauzerlar uchun avtomatik prefikslar qo'shish (-webkit-, -moz-)
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
