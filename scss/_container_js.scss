@@ -20,8 +20,8 @@ body{
         flex-direction: column;
         gap: 30px;
         border-radius:30px ;
-        h1{
-            
+        h1:hover{
+         color: aqua;
         }
         &:active{
                background: rebeccapurple;

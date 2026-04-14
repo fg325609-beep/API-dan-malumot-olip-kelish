@@ -22,6 +22,9 @@ body .card {
   gap: 30px;
   border-radius: 30px;
 }
+body .card h1:hover {
+  color: aqua;
+}
 body .card:active {
   background: rebeccapurple;
   color: white;
