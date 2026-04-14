@@ -28,4 +28,11 @@ body .card .img {
 body .card p {
   border-top: 1px solid black;
   padding-top: 20px;
+}
+body .card p:hover {
+  color: rgb(255, 0, 0);
+}
+body .card a {
+  padding: 10px 20px;
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
