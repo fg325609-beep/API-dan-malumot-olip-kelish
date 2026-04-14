@@ -21,6 +21,10 @@ body .card {
   flex-direction: column;
   gap: 30px;
   border-radius: 30px;
+  transition: all 1s ease-in-out;
+}
+body .card:hover {
+  transform: scale(0.9);
 }
 body .card h1:hover {
   color: aqua;
