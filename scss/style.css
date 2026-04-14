@@ -31,6 +31,7 @@ body .card p {
 }
 body .card p:hover {
   color: rgb(255, 0, 0);
+  border-top: 100% solid black;
 }
 body .card a {
   padding: 10px 20px;
