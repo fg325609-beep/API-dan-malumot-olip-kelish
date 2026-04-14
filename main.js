@@ -11,8 +11,8 @@ fetch('https://jsonplaceholder.typicode.com/comments')
              <div class="card">
                   <img src="https://picsum.photos/id/${el.id + 10}/600/200" alt="food">
                    <h1>${el.name}</h1>
-                    <p>@${el.username}</p>
-                   <a href="mailto:${el.email}">${el.email}</a>
+                    <p>@${el.email}</p>
+                   <a href="mailto:${el.body}">${el.email}</a>
                 </div>
             `).join("");
             wrapper.innerHTML = cards;
