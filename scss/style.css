@@ -22,6 +22,9 @@ body .card {
   gap: 30px;
   border-radius: 30px;
 }
+body .card:active {
+  background: rebeccapurple;
+}
 body .card .img {
   width: 100%;
 }
