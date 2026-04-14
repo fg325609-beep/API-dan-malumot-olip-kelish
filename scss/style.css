@@ -24,6 +24,7 @@ body .card {
 }
 body .card:active {
   background: rebeccapurple;
+  color: white;
 }
 body .card .img {
   width: 100%;
