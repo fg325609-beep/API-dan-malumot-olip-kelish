@@ -20,6 +20,9 @@ body{
         flex-direction: column;
         gap: 30px;
         border-radius:30px ;
+        &:active{
+               
+        }
         .img{
           width: 100%;
         }
