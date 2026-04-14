@@ -34,7 +34,7 @@ body .card p:hover {
 }
 body .card a {
   padding: 10px 20px;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
   color: black;
 }/*# sourceMappingURL=style.css.map */
